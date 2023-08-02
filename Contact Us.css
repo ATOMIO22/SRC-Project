@@ -1,0 +1,148 @@
+
+div{
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+button{
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+button:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#navBar{
+    height: 80px;
+    width: 100%;
+    padding: 5px;
+    font-size: larger;
+    /* background-color: aqua; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 2;
+}
+#secondHalf{
+    display: flex;
+    top: 40px;
+    right: 0;
+    position: absolute;
+    font: 500;
+}
+#logo{
+    display: inline-block;
+    font-size: xx-large;
+    color:rgb(249 115 22) ;
+    margin-left: 20px;
+    position: absolute;
+    top: 25px;
+}
+.nav{
+    display: block;
+    margin-right: 15px;
+}
+.button1{
+    border-color: rgb(249 115 22);
+    background-color: white;
+    color:rgb(249 115 22) ;
+    font-size: large;
+    width: 65px;
+    justify-content: center;
+    border-radius: 6px;
+}
+.button2{
+    background-color: rgb(249 115 22);
+    border-color:rgb(249 115 22) ;
+    font-size: large;
+    width: 80px;
+    justify-content: center;
+    border-radius: 6px;
+}
+#Box{
+    margin-bottom: 100px;
+}
+h1{
+    text-align:center;
+    color: rgb(249 115 22);
+    text-decoration-style: solid;
+}
+.boxOut{
+    margin: 20px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.visible{
+    width: 100%;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    color: rgb(249 115 22);
+    height: 50px;
+    font-size: xx-large;
+}
+.boxOut:hover .visible{
+    background-color: rgb(249 115 22);
+    color: white;
+}
+
+.invisible{
+    display: none;
+    background-color: whitesmoke;
+    color: rgb(249 115 22);
+    height: 150px;
+    font-size: xx-large;
+    padding: 20px;
+}
+.boxOut:hover .invisible{
+    display: block;    
+}
+
+#query{
+    background-color: rgb(249 115 22);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 60%;
+    position: relative;
+    left: 17%;
+    padding: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 56px;
+}
+form{
+    font-size: x-large;
+}
+select{
+    height: 50px;
+    width: 500px;
+    color: black;
+    border-color: rgb(249 115 22);
+    border-width: 2px;
+    border-radius: 6px;
+    text-align: center;
+}
+input{
+    height: 50px;
+    width: 500px;
+    /* color: rgb(249 115 22); */
+    color: black;
+    border-color: rgb(249 115 22);
+    border-radius: 6px;
+    font-size: x-large;
+}
+textarea{
+    font-size: large;
+}
+.form-example{
+    margin-top: 8px;
+    
+}

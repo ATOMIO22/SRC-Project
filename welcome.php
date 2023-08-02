@@ -1,0 +1,81 @@
+<?php
+include("connect.php");
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="welcome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="navBar">
+        <div id="logo"><a style="color: rgb(249 115 22)">VITAP Hospitals</a></div>
+        <div id="secondHalf">
+            <div class="nav"><a href="welcome.php">Home</a></div>
+            <div class="nav"><a href="Doctors.php">Doctors</a></div>
+            <div class="nav"><a href="About.php">About</a></div>
+            <div class="nav"><a href="Contact Us.php">Contact Us</a></div>
+            <div class="nav"><button class="button2" ><a href="logout.php" style="color : white">Logout</a></button></div>
+           
+        </div>
+    </div>
+    <div id="group">
+        <p id="para"><u>Our Family</u></p>
+        <img src="home.jpg" alt="" id="groupPic">
+    </div>
+    <div style="text-align: center; color: rgb(249 115 22); font-size: xx-large;">
+        What You Want To Do Today?<br><br>
+    </div>
+    <div id="modules">
+        <div class="mod"><img src="bookappt_icon.svg" alt=""><br><p class="pa">Book appointment</p></div>
+        <div class="mod"><img src="bookhelathcheck_icon.svg" alt=""><br><p class="pa">Book health check-up</p></div>
+        <div class="mod"><img src="buymedicines_icon.svg" alt="" ><br><p class="pa">Buy Medicine</p></div>
+        <div class="mod"><img src="consultonline_icon.svg" alt="" ><br><p class="pa">Consult Online</p></div>
+        <div class="mod"><img src="finddoctor_icon.svg" alt=""><br><p class="pa">view health record</p></div>
+       <a href = "Bloodbank.php"> <div class="mod"><img src="blood-drop.png" alt=""><br><p class="pa">Blood Bank</p></div> </a>
+    </div>
+    <br><br><br><br>
+    <div id="details" style="border-top: 70px;">
+        <div class="detailText">
+            <p style="font-size: xx-large; color: rgb(249 115 22);">Founder & Chairman</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam rerum earum perspiciatis, accusantium distinctio ex sapiente numquam? Odit, incidunt velit necessitatibus officiis expedita quae harum, minus blanditiis, cupiditate natus sapiente!
+            Possimus repellendus mollitia iste quaerat velit similique. Quasi aspernatur laborum eos! Similique iusto illum culpa cupiditate? In alias excepturi optio repellendus illo veniam, iure consectetur ipsa. Nam eos debitis aliquid.</p>
+        </div>
+        <div class="detailPic">
+            <img src="prasanth.jpg" alt="" class="pics">
+            <p style="color:rgb(249 115 22) ; font-size: larger;">Dr. Kodamanchili Pavani Prasanth</p>
+        </div>
+        <div class="detailPic">
+            <img src="farhan.jpg" alt="" class="pics">
+            <p style="color:rgb(249 115 22) ; font-size: larger;">Dr. Shaik Farhan</p>
+        </div>
+        <div class="detailText">
+            <p style="font-size: xx-large; color: rgb(249 115 22);">Co-Founder</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, dolorum. Aspernatur tempora minus accusamus! Dignissimos ad cum reiciendis nihil blanditiis velit optio asperiores, minima error cumque laboriosam officiis quas iste.
+            Placeat, nihil earum. Iure voluptatibus non tenetur, minus, eum ratione sed quod quis ea nisi explicabo sint. Nemo nostrum, voluptatem non nesciunt impedit tempore praesentium quibusdam voluptates laborum ea ab.</p>
+        </div>
+    </div>
+    <footer style="background-color: orange;padding: 10px;">
+        <img src="vitLogo.webp" style="border-radius: 50%; height: 50px;" alt=""><p style="font-size: xx-large; display: inline; position: relative; top: -13px;">VIT HOSPITALS</p>
+        <br>
+        <pre style="font-size: large;">
+Address:
+    VIT-AP,near AP secreteriate
+    Ainavolu, 
+    Guntur-522237,
+    Andhra Pradesh.
+        </pre>
+        <pre style="font-size: large;">
+Contact Us At:                                                                                Email: vitap.hospital@vitinstitute.ac.in
+                                                                                              contact number: +91 9000100011 , +91 9000100022
+    <a href="https://instagram.com/vitap.university?igshid=YmM0MjE2YWMzOA=="><i class="fa-brands fa-instagram fa-2xl" style="color: white;"></i></a>  |  <a href="https://www.facebook.com/vitap.university"><i class="fa-brands fa-facebook fa-2xl" style="color: white;"></i></a>  |  <a href="https://twitter.com/VITAPuniversity"><i class="fa-brands fa-twitter fa-2xl" style="color: white;"></i></a>  |  <a href="https://www.linkedin.com/school/vellore-institute-of-technology/"><i class="fa-brands fa-linkedin fa-2xl" style="color: white;"></i></a>  |  <a href="https://www.youtube.com/c/VITAP"><i class="fa-brands fa-youtube fa-2xl" style="color: white;"></i></a>
+                                                                                                                                                                  
+        </pre>
+        <br>© All rights reserved by Healthcare System.<br/>
+
+    </footer>
+</body>
+</html>
