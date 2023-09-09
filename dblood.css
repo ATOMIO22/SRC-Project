@@ -1,0 +1,123 @@
+a{
+                              text-decoration: none;
+                              color: black;
+                          }
+                          #navBar{
+                              height: 80px;
+                              width: 100%;
+                              padding: 5px;
+                              font-size: larger;
+                              position: sticky;
+                              top: 0;
+                              left: 0;
+                              background-color: white;
+                              z-index: 2;
+                          }
+                          #secondHalf{
+                              display: flex;
+                              top: 40px;
+                              right: 0;
+                              position: absolute;
+                              font: 500;
+                          }
+                          #logo{
+                              display: inline-block;
+                              font-size: xx-large;
+                              color:rgb(22, 211, 249) ;
+                              margin-left: 20px;
+                              position: absolute;
+                              top: 25px;
+                          }
+                          .nav{
+                              display: block;
+                              margin-right: 15px;
+                          }
+                          .button1{
+                              border-color: rgb(22, 211, 249);
+                              background-color: white;
+                              color:rgb(22, 211, 249) ;
+                              font-size: large;
+                              width: 65px;
+                              justify-content: center;
+                              border-radius: 6px;
+                          }
+                          .button2{
+                              background-color:rgb(22, 211, 249);
+                              border-color:rgb(22, 211, 249) ;
+                              font-size: large;
+                              width: 80px;
+                              justify-content: center;
+                              border-radius: 6px;
+                          }
+                          #outerbox{
+                              width: 85%;
+                              height: 500px;
+                              border: solid;
+                              border-width: 5px;
+                              border-color: rgb(22, 211, 249);
+                              margin: 50px;
+                              margin-left: 70px;
+                              padding: 30px;
+                              text-align: center;
+                              display: flex;
+                              flex-direction: column;
+                              align-items:center;
+                          }
+                          form{
+                              text-align: center;
+                              display: flex;
+                              flex-direction: column;
+                              align-items:center;
+                          }
+                          #buttonSearch{
+                              background-color:rgb(22, 211, 249);
+                              margin-top: 20px;
+                              height: 30px;
+                              width: 150px;
+                              color: white;
+                              border-color:rgb(22, 211, 249);
+                              border-radius: 6px;
+                          }
+                          #search{
+                          
+                              font-size: 70px;
+                              color: rgb(22, 211, 249);
+                          }
+                          select{
+                              height: 50px;
+                              width: 500px;
+                              color:rgb(22, 211, 249);
+                              border-color:rgb(22, 211, 249);
+                              border-width: 2px;
+                              border-radius: 6px;
+                              text-align: center;
+                          }
+                          .quote{
+                              font-size: xx-large;
+                              font-family: cursive;
+                              transform: skew(15deg);
+                              color:(22, 211, 249) ;
+                              animation-name: quoteAnimation;
+                              animation-timing-function: ease-in-out;
+                              animation-duration: 5s;
+                              animation-iteration-count: infinite;
+                          }
+                          @keyframes quoteAnimation{
+                              0% {
+                                  color:rgb(22, 211, 249);
+                                  font-size: 28px;
+                              }
+                              50% {
+                                  color: red;
+                                  font-size: 30px;
+                              }
+                              100% {
+                                  color:rgb(22, 211, 249);
+                                  font-size: 28px;
+                              }
+                          
+                          }
+                          
+                          .variablecolor{
+                              color:rgb(22, 211, 249);
+                          }

@@ -13,7 +13,7 @@ if(isset($_POST["submit"])){
     if($password == $row['password']){
       $_SESSION["login"] = true;
       $_SESSION["id"] = $row["id"];
-      header("Location: welcome.php");
+      header("Location: doctorpage.php");
     }
     else{
         echo  '<script>

@@ -11,10 +11,10 @@
     <div id="navBar">
         <div id="logo"><a href="index.html" style="color: rgb(249 115 22)">VITAP Hospitals</a></div>
         <div id="secondHalf">
-            <div class="nav" style="cursor: no-drop;"><a href="welcome.html" style="pointer-events: none;">Home</a></div>
-            <div class="nav" style="cursor: no-drop;"><a href="Doctors.html" style="pointer-events: none;">Doctors</a></div>
-            <div class="nav" style="cursor: no-drop;"><a href="About.html" style="pointer-events: none;">About</a></div>
-            <div class="nav" style="cursor: no-drop;"><a href="Contact Us.html" style="pointer-events: none;">Contact Us</a></div>
+            <div class="nav" style="cursor: no-drop;"><a href="welcome.php" style="pointer-events: none;">Home</a></div>
+            <div class="nav" style="cursor: no-drop;"><a href="Doctors.php" style="pointer-events: none;">Doctors</a></div>
+            <div class="nav" style="cursor: no-drop;"><a href="About.php" style="pointer-events: none;">About</a></div>
+            <div class="nav" style="cursor: no-drop;"><a href="Contact Us.php" style="pointer-events: none;">Contact Us</a></div>
             <div class="nav"><button class="button1"><a href="login.php">Login</a></button></div>
             <div class="nav"><button class="button2"><a href="signup.php" style="color: white;">SignUp</a></button></div>
         </div>
@@ -29,7 +29,7 @@
     <div id="modules">
         <a href=""><div class="mod"><img src="bookappt_icon.svg" alt=""><br><p class="pa">Book appointment</p></div></a>
         <a href=""><div class="mod"><img src="bookhelathcheck_icon.svg" alt=""><br><p class="pa">Book health check-up</p></div></a>
-        <a href=""><div class="mod"><img src="buymedicines_icon.svg" alt="" ><br><p class="pa">Buy Medicine</p></div></a>
+        <a href=""><div class="mod"><img src="buymedicines_icon.svg" alt="" ><br><p class="pa">Payments</p></div></a>
         <a href=""><div class="mod"><img src="consultonline_icon.svg" alt="" ><br><p class="pa">Consult Online</p></div></a>
         <a href=""><div class="mod"><img src="finddoctor_icon.svg" alt=""><br><p class="pa">view health record</p></div></a>
         <a href=""><div class="mod"><img src="blood-drop.png" alt=""><br><p class="pa">Blood Bank</p></div></a>

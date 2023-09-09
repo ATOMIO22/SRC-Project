@@ -30,12 +30,12 @@ include("connect.php");
         What You Want To Do Today?<br><br>
     </div>
     <div id="modules">
-        <div class="mod"><img src="bookappt_icon.svg" alt=""><br><p class="pa">Book appointment</p></div>
-        <div class="mod"><img src="bookhelathcheck_icon.svg" alt=""><br><p class="pa">Book health check-up</p></div>
-        <div class="mod"><img src="buymedicines_icon.svg" alt="" ><br><p class="pa">Buy Medicine</p></div>
-        <div class="mod"><img src="consultonline_icon.svg" alt="" ><br><p class="pa">Consult Online</p></div>
+      <a href = "apmt.php"> <div class="mod"><img src="bookappt_icon.svg" alt=""><br><p class="pa">Book appointment</p></div></a>
+       <a href="checkUp.php"> <div class="mod"><img src="bookhelathcheck_icon.svg" alt=""><br><p class="pa">Book health check-up</p></div> </a>
+       <a href="payments.php"> <div class="mod"><img src="buymedicines_icon.svg" alt="" ><br><p class="pa">Payments</p></div> </a>
+       <a href="OnlineConsult.php"> <div class="mod"><img src="consultonline_icon.svg" alt="" ><br><p class="pa">Consult Online</p></div> </a>
         <div class="mod"><img src="finddoctor_icon.svg" alt=""><br><p class="pa">view health record</p></div>
-       <a href = "Bloodbank.php"> <div class="mod"><img src="blood-drop.png" alt=""><br><p class="pa">Blood Bank</p></div> </a>
+       <a href = "BloodBank.php"> <div class="mod"><img src="blood-drop.png" alt=""><br><p class="pa">Blood Bank</p></div> </a>
     </div>
     <br><br><br><br>
     <div id="details" style="border-top: 70px;">

@@ -26,8 +26,7 @@ if (isset($_POST["submit"])) {
                 // Password Hashing is used here. 
                 $sql = "INSERT INTO sign(username, email, password) VALUES('$username', '$email','$password')";
                 mysqli_query($conn, $sql);
-                echo
-                '<script> alert("Registration Successful") </script>';
+            
 
 
                 $result = mysqli_query($conn, $sql);

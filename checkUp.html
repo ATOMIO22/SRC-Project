@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Health Check-Up</title>
+    <link rel="stylesheet" href="checkUp.css">
+</head>
+<body>
+    <div id="navBar">
+        <div id="logo"><a href="welcome.html" style="color: rgb(249 115 22)">VITAPHospitals</a></div>
+        <div id="secondHalf">
+            <div class="nav"><a href="welcome.html">Home</a></div>
+            <div class="nav"><a href="Doctors.html">Doctors</a></div>
+            <div class="nav"><a href="About.html">About</a></div>
+            <div class="nav"><a href="Contact Us.html">Contact Us</a></div>
+            <!-- <div class="nav"><button class="button1"><a href="login.html">Login</a></button></div> -->
+            <div class="nav"><button class="button2"><a href="index.html" style="color: white;">Log Out</a></button></div>
+        </div>
+    </div>
+    <center>
+        <h1>BOOK A HEALTH CHECK-UP</h1>
+    </center>
+    <div id="outer">
+        <div id="ApmtForm">
+            <center>
+                <form action="" method="post">
+                    <label for="PatientName">Enter patient Name : </label>
+                    <input type="text" name="PatientName" id="PatientName" placeholder="Name Of patient" required /><br />
+                    <label for="Age">Enter the age of Patient : </label>
+                    <input type="number" name="Age" id="Age" required /><br />
+                    <label for="Sex">Select the gender of Patient : </label>
+                    <select name="Sex" id="Sex">
+                        <option value="">--- Please select an option ---</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
+                    </select><br>
+                    <label for="tests">Enter the tests you want to have : </label>
+                    <input type="text" name="tests" id="tests" placeholder="Tests you want" /><br />
+                    <label for="problems">Enter your problem so we can do required tests : </label><br>
+                    <textarea name="problems" id="problems" placeholder="please enter your problem" rows="10" cols="90" required></textarea><br>
+                    <input type="submit">
+                </form>
+            </center>
+        </div>
+    </div>
+</body>
+</html>

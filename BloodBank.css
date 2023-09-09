@@ -115,4 +115,9 @@ select{
         color: rgb(249 115 22);
         font-size: 28px;
     }
+
+}
+
+.variablecolor{
+    color:rgb(249 115 22);
 }

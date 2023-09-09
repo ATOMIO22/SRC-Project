@@ -1,0 +1,103 @@
+div{
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+button{
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+button:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#navBar{
+    height: 80px;
+    width: 100%;
+    padding: 5px;
+    font-size: larger;
+    /* background-color: aqua; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 2;
+}
+#secondHalf{
+    display: flex;
+    top: 40px;
+    right: 0;
+    position: absolute;
+    font: 500;
+}
+#logo{
+    display: inline-block;
+    font-size: xx-large;
+    color:rgb(22, 211, 249) ;
+    margin-left: 20px;
+    position: absolute;
+    top: 25px;
+}
+.nav{
+    display: block;
+    margin-right: 15px;
+}
+.button1{
+    border-color: rgb(22, 211, 249);
+    background-color: white;
+    colorrgb(22, 211, 249) ;
+    font-size: large;
+    width: 65px;
+    justify-content: center;
+    border-radius: 6px;
+}
+.button2{
+    background-color:rgb(22, 211, 249);
+    border-color:rgb(22, 211, 249) ;
+    font-size: large;
+    width: 80px;
+    justify-content: center;
+    border-radius: 6px;
+}
+#out{
+    /* background-color: aliceblue; */
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 26px;
+    width: 90vw;
+}
+.in{
+    /* border: 2px solid rgb(249 115 22); */
+    height: 80vh;
+    width: 40vw;
+}
+img{
+    height: 80vh;
+    width: 40vw;
+    border-radius: 26px;
+    
+}
+#forForm{
+    color: rgba(9, 137, 169, 0.669);
+    font-weight: 400;
+    position: relative;
+    width: fit-content;
+    border-radius: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-size: x-large;
+}
+input{
+    margin: 10px;
+    font-size: x-large;
+    border-radius: 6px;
+}

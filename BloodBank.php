@@ -1,8 +1,4 @@
-<?php
-include("BBcon.php");
-include("BB.php");
 
-?>
 
 
 <!DOCTYPE html>
@@ -29,8 +25,8 @@ include("BB.php");
     <div id="outerbox">
         
         <p id="search" style="margin: 30px;">Require Blood?</p>
-        <form action="BB.php">
-            <select name="Blood Group"  name = "form" method="POST" >
+        <form action="" method="post">
+            <select name="BloodSelectedGroup">
                 <option value="NONE">NONE</option>
                 <option value="A+">A+</option>
                 <option value="A-">A-</option>
@@ -41,12 +37,38 @@ include("BB.php");
                 <option value="O+">O+</option>
                 <option value="O-">O-</option>
             
+    
             </select>
             
             <input type="submit" id="btn" value="Search" name = "submit" class="fa-solid fa-magnifying-glass" style="color: orange; position:absolute; top: 68%; width: 300px; height: 35px; border-radius: 9px;"> 
+            <br> </br>
+    <br> </br>
+           
+           <?php
+include("BBcon.php");
+include("BB.php");
+if (isset($_POST['submit'])) {
+
+$selectedBloodGroup = $_POST['BloodSelectedGroup'];
+
+    // Query the database to find matching records
+    $query = "SELECT availability FROM bloodbank WHERE bloodtype = '$selectedBloodGroup'";
+    $result = mysqli_query($conn, $query);
+    
+    while ($row = mysqli_fetch_assoc($result)) {
+        echo '<span style="color:#AFA;text-align:center;The blood group availability is :"></span>';
+        // echo "The blood group availability is : "; 
+        echo '<p class="variablecolor">The blood group availability is :</p>';   echo $row['availability'];
+       // echo $row['availability'];
+        // For example: echo $row['donor_name'], $row['donor_contact'], etc.
+    }
+
+
+}
+?>
 
         </form>
-
+            
         <div style="margin-top: 40px;">
         <p class="quote">"The blood you donate gives someone another chance at life.</p>
         <p class="quote"> One day that someone may be close relative, a friend, a loved one-- or even you"</p>
